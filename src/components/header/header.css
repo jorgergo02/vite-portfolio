@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 120vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -124,7 +124,7 @@ h5.prename {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 90vh;
   }
   .cta {
     flex-direction: column;
