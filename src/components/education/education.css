@@ -1,0 +1,85 @@
+h5.pre__title {
+  padding-top: 1rem;
+}
+
+.education__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education__container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+/* CARDS */
+
+.education__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.education__card {
+  background: var(--color-bg-variant);
+  border: 1px solid var(--color-primary);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+/* ICONS */
+
+.education__card-icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+/* EFFECTS */
+
+.education__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+  transform: translateY(-0.5rem);
+  cursor: default;
+}
+
+/* IMAGES */
+
+.tec__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.4rem;
+}
+
+.upm__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-top: 5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .education__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .education__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
