@@ -1,8 +1,8 @@
 import React from "react";
 import "./education.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
-import TEC from "..//..//assets/tec.png";
-import UPM from "..//..//assets/upm.png";
+import TEC from "..//..//assets/tec.webp";
+import UPM from "..//..//assets/upm.webp";
 
 const Education = () => {
   return (

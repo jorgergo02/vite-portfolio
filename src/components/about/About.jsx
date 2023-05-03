@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "..//..//assets/me-jorge.jpg";
+import ME from "..//..//assets/me-jorge.webp";
 import { FaAward } from "react-icons/fa";
 import { TbPlaneDeparture } from "react-icons/tb";
 import { RiFoldersLine } from "react-icons/ri";

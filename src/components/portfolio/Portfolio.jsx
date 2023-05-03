@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/pirineos.png";
-import IMG2 from "../../assets/padel.png";
-import IMG3 from "../../assets/testfarma.jpg";
+import IMG1 from "../../assets/pirineos.webp";
+import IMG2 from "../../assets/padel.webp";
+import IMG3 from "../../assets/testfarma.webp";
 
 const data = [
   {
