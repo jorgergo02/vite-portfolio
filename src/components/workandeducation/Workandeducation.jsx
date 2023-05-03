@@ -52,13 +52,6 @@ const Experience = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Project Management and Web Development for a Web Application
-                using SQL, HTML, CSS and JavaScript
-              </p>
-            </li>
-            <li>
-              <BiCheck className="experience__list-icon" />
-              <p>
                 Performed a full analysis of industrial processes related to
                 shipping truck parts
               </p>
@@ -66,13 +59,23 @@ const Experience = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Optimized an existing web application using the results from the
-                analysis
+                Generated daily paginated reports using SQL queries and
+                Microsoft Report Builder
               </p>
             </li>
             <li>
               <BiCheck className="experience__list-icon" />
-              <p>Increased the speed of sending discrepancy reports by 30%.</p>
+              <p>
+                Improved the efficency of the logistics processes such as
+                expedite and planning at Daimler Truck
+              </p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>
+                Currently developing a ReactJS project using HTML, CSS and
+                JavaScript
+              </p>
             </li>
           </ul>
         </article>
