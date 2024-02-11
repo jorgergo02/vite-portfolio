@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -34,17 +34,22 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/zwartevilt.png);
   position: relative;
   isolation: isolate;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgba(0, 0, 0, 0.93) 50%,
+    rgb(63, 61, 61) 90%
+  );
 }
 
 body::after {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   z-index: -1;

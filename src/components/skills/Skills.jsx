@@ -1,6 +1,6 @@
-import React from "react";
-import "./skills.css";
-import { BsFillPatchCheckFill } from "react-icons/bs";
+import React from 'react';
+import './skills.css';
+import { BsFillPatchCheckFill } from 'react-icons/bs';
 
 const Skills = () => {
   return (
@@ -19,7 +19,7 @@ const Skills = () => {
               <BsFillPatchCheckFill className="skills__details-icon" />
               <div>
                 <p>HTML5</p>
-                <small className="text-light"> More than 2 years</small>
+                <small className="text-light"> More than 3 years</small>
               </div>
             </article>
             <article className="skills__details">
@@ -33,14 +33,14 @@ const Skills = () => {
               <BsFillPatchCheckFill className="skills__details-icon" />
               <div>
                 <p>JavaScript</p>
-                <small className="text-light">More than 1 year</small>
+                <small className="text-light">More than 2 years</small>
               </div>
             </article>
             <article className="skills__details">
               <BsFillPatchCheckFill className="skills__details-icon" />
               <div>
                 <p>Bootstrap</p>
-                <small className="text-light">More than 1 year</small>
+                <small className="text-light">More than 2 years</small>
               </div>
             </article>
             <article className="skills__details">
@@ -109,13 +109,6 @@ const Skills = () => {
               <BsFillPatchCheckFill className="skills__details-icon" />
               <div>
                 <p>NodeJS</p>
-                <small className="text-light"> Less than 1 year</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsFillPatchCheckFill className="skills__details-icon" />
-              <div>
-                <p>PostgreSQL</p>
                 <small className="text-light"> Less than 1 year</small>
               </div>
             </article>

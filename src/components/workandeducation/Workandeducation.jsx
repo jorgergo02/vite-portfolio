@@ -1,6 +1,6 @@
-import React from "react";
-import "./workandeducation.css";
-import { BiCheck } from "react-icons/bi";
+import React from 'react';
+import './workandeducation.css';
+import { BiCheck } from 'react-icons/bi';
 
 const Experience = () => {
   return (
@@ -9,7 +9,6 @@ const Experience = () => {
       <h2>Professional Experience</h2>
 
       <div className="container experiences__container">
-        {/* 1 */}
         <article className="experience">
           <div className="experience__head">
             <h3>JA Pro Academy</h3>
@@ -46,7 +45,7 @@ const Experience = () => {
           <div className="experience__head">
             <h3>Daimler Trucks</h3>
             <h3>Logistics Intern</h3>
-            <small>March 2023 - Present</small>
+            <small>March 2023 - May 2023</small>
           </div>
           <ul className="experience__list">
             <li>
@@ -76,6 +75,38 @@ const Experience = () => {
                 Currently developing a ReactJS project using HTML, CSS and
                 JavaScript
               </p>
+            </li>
+          </ul>
+        </article>
+        <article className="experience">
+          <div className="experience__head">
+            <h3>El Puerto de Liverpool</h3>
+            <h3>RPA Developer</h3>
+            <small>May 2023 - Present</small>
+          </div>
+          <ul className="experience__list">
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>
+                Analyzed financial processes for Robot Process Automation
+                implementation using UIPath Studio
+              </p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>Programmed automation scripts with Visual Basic</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>Collaborated on cross-functional teams</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>Automated SAP transactions</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>Tracked and reported automation impacts</p>
             </li>
           </ul>
         </article>

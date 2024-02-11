@@ -1,9 +1,9 @@
-import React from "react";
-import "./about.css";
-import ME from "..//..//assets/me-jorge.webp";
-import { FaAward } from "react-icons/fa";
-import { TbPlaneDeparture } from "react-icons/tb";
-import { RiFoldersLine } from "react-icons/ri";
+import React from 'react';
+import './about.css';
+import ME from '..//..//assets/me-jorge.webp';
+import { FaAward } from 'react-icons/fa';
+import { TbSeeding } from 'react-icons/tb';
+import { RiFoldersLine } from 'react-icons/ri';
 
 const About = () => {
   return (
@@ -23,20 +23,21 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>More than a year of Professional Experience</small>
+              <small>More than 2 years of Professional Experience</small>
             </article>
 
             <article className="about__card">
               <RiFoldersLine className="about__icon" />
               <h5>Projects</h5>
-              <small>More than 4 projects delivered for clients</small>
+              <small>More than 5 projects delivered for clients</small>
             </article>
 
             <article className="about__card about__card--third">
-              <TbPlaneDeparture className="about__icon" />
-              <h5>Studies Abroad</h5>
+              <TbSeeding className="about__icon" />
+              <h5>Seed for the Future</h5>
               <small>
-                Studied a semester at the Polytechnic Institute of Madrid
+                I won Huawei's 'Seeds for the Future 2023'. Earning a full
+                scholarship in an IT training program.
               </small>
             </article>
           </div>
