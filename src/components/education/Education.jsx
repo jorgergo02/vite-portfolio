@@ -8,7 +8,7 @@ const Education = () => {
   return (
     <section id="education">
       <h5 className="pre__title">Academic History</h5>
-      <h2 className="main__title">My Education</h2>
+      <h2 className="main__title">Education</h2>
       <div className="container education__container">
         <div className="education-tec">
           <div className="education__title">
