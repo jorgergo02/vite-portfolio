@@ -1,8 +1,8 @@
-import React from "react";
-import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import React from 'react';
+import './footer.css';
+import { FaFacebookF } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -37,16 +37,28 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.instagram.com/jorgergo_/" target="_blank">
+        <a
+          href="https://www.instagram.com/jorgergo_/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram profile"
+        >
           <BsInstagram />
         </a>
         <a
           href="https://www.facebook.com/jorgergonzalezozorno/"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook profile"
         >
           <FaFacebookF />
         </a>
-        <a href="https://twitter.com/RamonOzorno" target="_blank">
+        <a
+          href="https://twitter.com/RamonOzorno"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter profile"
+        >
           <BsTwitter />
         </a>
       </div>

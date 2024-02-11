@@ -1,6 +1,6 @@
-import React from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { SiLeetcode } from "react-icons/si";
+import React from 'react';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { SiLeetcode } from 'react-icons/si';
 
 const HeaderSocials = () => {
   return (
@@ -9,6 +9,7 @@ const HeaderSocials = () => {
         href="https://linkedin.com/in/jorgergo"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="LinkedIn profile"
       >
         <BsLinkedin />
       </a>
@@ -16,6 +17,7 @@ const HeaderSocials = () => {
         href="https://github.com/jorgergo02"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="GitHub profile"
       >
         <BsGithub />
       </a>
@@ -23,6 +25,7 @@ const HeaderSocials = () => {
         href="https://leetcode.com/jorgergo/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="LeetCode profile"
       >
         <SiLeetcode />
       </a>

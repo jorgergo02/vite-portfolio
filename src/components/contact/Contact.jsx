@@ -1,10 +1,10 @@
-import React from "react";
-import "./contact.css";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { MdOutlineMailOutline } from "react-icons/md";
-import { BsLinkedin } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
+import React from 'react';
+import './contact.css';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { MdOutlineMailOutline } from 'react-icons/md';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const Contact = () => {
   const form = useRef();
@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_nnco9uk",
-        "template_m770bsf",
+        'service_nnco9uk',
+        'template_m770bsf',
         form.current,
-        "EOXoocxq5FRJbX1Nd"
+        'EOXoocxq5FRJbX1Nd'
       )
       .then(
         (result) => {
