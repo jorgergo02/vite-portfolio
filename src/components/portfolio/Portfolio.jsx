@@ -4,6 +4,7 @@ import './portfolio.css';
 import IMG1 from '../../assets/pirineos.webp';
 import IMG2 from '../../assets/padel.webp';
 import IMG3 from '../../assets/testfarma.webp';
+import IMG4 from '../../assets/testfarma_webapp.webp';
 
 const data = [
   {
@@ -30,10 +31,10 @@ const data = [
   },
   {
     id: 4,
-    image: IMG1, // Change this image
+    image: IMG4, // Change this image
     title: 'TestFarma Web App',
     github: 'https://github.com/jorgergo02/testfarma_webapp.git',
-    liveDemo: 'https://testfarma.herokuapp.com/',
+    liveDemo: 'https://test-farma-app-aa2239acd833.herokuapp.com/',
   },
 ];
 
