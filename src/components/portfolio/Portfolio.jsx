@@ -8,33 +8,33 @@ import IMG4 from '../../assets/testfarma_webapp.webp';
 
 const data = [
   {
-    id: 1,
+    id: 3,
+    image: IMG4,
+    title: 'TestFarma Web App',
+    github: 'https://github.com/jorgergo02/testfarma_webapp.git',
+    liveDemo: 'https://test-farma-app-aa2239acd833.herokuapp.com/',
+  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'TestFarma Android App',
+  //   github: 'https://github.com/jorgergo02/testfarma_TC2007',
+  //   liveDemo:
+  //     'https://drive.google.com/file/d/1XJaRcEzsM_KRhUe5JlzPQLhqGcaPpIrt/view?usp=share_link',
+  // },
+  {
+    id: 2,
     image: IMG1,
     title: 'Harinera los Pirineos Website',
     github: 'https://github.com/jorgergo02/pagina_pirineos',
     liveDemo: 'https://jorgergo02.github.io/pagina_pirineos/index.html',
   },
   {
-    id: 2,
-    image: IMG3,
-    title: 'TestFarma Android App',
-    github: 'https://github.com/jorgergo02/testfarma_TC2007',
-    liveDemo:
-      'https://drive.google.com/file/d/1XJaRcEzsM_KRhUe5JlzPQLhqGcaPpIrt/view?usp=share_link',
-  },
-  {
-    id: 3,
+    id: 1,
     image: IMG2,
     title: 'Padel Pro Academy (Private Project)',
     github: 'https://github.com/Emmanuelmh/padel',
     liveDemo: 'https://padel-gamma.vercel.app/',
-  },
-  {
-    id: 4,
-    image: IMG4, // Change this image
-    title: 'TestFarma Web App',
-    github: 'https://github.com/jorgergo02/testfarma_webapp.git',
-    liveDemo: 'https://test-farma-app-aa2239acd833.herokuapp.com/',
   },
 ];
 
