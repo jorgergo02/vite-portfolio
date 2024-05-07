@@ -3,25 +3,25 @@ import './portfolio.css';
 
 import IMG1 from '../../assets/pirineos.webp';
 import IMG2 from '../../assets/padel.webp';
-import IMG3 from '../../assets/testfarma.webp';
-import IMG4 from '../../assets/testfarma_webapp.webp';
+import IMG3 from '../../assets/testfarma_webapp.webp';
+import IMG4 from '../../assets/bear_watcher.webp';
 
 const data = [
   {
-    id: 3,
+    id: 4,
     image: IMG4,
+    title: 'Bear Watcher',
+    github: 'https://github.com/jorgergo02/bear_watcher',
+    liveDemo:
+      'https://hackathon.genius-arena.com/hackathon/deteccion-de-anomalias-por-analisis-de-trafico-en-la-navegacion-nomaly-sisa/',
+  },
+  {
+    id: 3,
+    image: IMG3,
     title: 'TestFarma Web App',
     github: 'https://github.com/jorgergo02/testfarma_webapp.git',
     liveDemo: 'https://test-farma-app-aa2239acd833.herokuapp.com/',
   },
-  // {
-  //   id: 3,
-  //   image: IMG3,
-  //   title: 'TestFarma Android App',
-  //   github: 'https://github.com/jorgergo02/testfarma_TC2007',
-  //   liveDemo:
-  //     'https://drive.google.com/file/d/1XJaRcEzsM_KRhUe5JlzPQLhqGcaPpIrt/view?usp=share_link',
-  // },
   {
     id: 2,
     image: IMG1,
